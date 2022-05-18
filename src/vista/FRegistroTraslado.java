@@ -11,7 +11,7 @@ import entidades.Transportador;
 import entidades.Usuario;
 import entidades.Vehiculo;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;

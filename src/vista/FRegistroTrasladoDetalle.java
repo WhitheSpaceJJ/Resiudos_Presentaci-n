@@ -8,7 +8,7 @@ import entidades.Asignacion_Traslado;
 import entidades.Traslado;
 import entidades.Vehiculo;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;

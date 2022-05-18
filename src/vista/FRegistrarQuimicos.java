@@ -7,7 +7,7 @@ package vista;
 
 import entidades.Quimico;
 import implementaciones.FNegocio;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import javax.swing.JOptionPane;
 
 /**

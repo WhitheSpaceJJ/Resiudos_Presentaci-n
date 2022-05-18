@@ -11,7 +11,7 @@ import entidades.Usuario;
 import entidades.Vehiculo;
 import implementaciones.FNegocio;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.swing.JOptionPane;

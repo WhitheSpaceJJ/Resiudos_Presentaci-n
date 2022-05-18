@@ -16,7 +16,7 @@ import entidades.Usuario;
 import entidades.Vehiculo;
 import implementaciones.FNegocio;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;

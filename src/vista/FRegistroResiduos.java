@@ -12,7 +12,7 @@ import entidades.Residuo;
 import entidades.Usuario;
 import implementaciones.FNegocio;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;

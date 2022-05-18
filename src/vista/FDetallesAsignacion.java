@@ -13,7 +13,7 @@ import entidades.Solicitud_de_Traslado;
 import entidades.Transporte;
 import entidades.Usuario;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

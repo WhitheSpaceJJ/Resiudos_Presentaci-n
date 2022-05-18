@@ -10,7 +10,7 @@ import entidades.Productor;
 import entidades.Transportador;
 import implementaciones.FNegocio;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import javax.swing.JOptionPane;
 
 /**

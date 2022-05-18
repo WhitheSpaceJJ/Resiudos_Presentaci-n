@@ -10,7 +10,7 @@ import entidades.Solicitud_de_Traslado;
 import entidades.Transporte;
 import entidades.Usuario;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.List;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;

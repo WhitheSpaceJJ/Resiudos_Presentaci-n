@@ -10,7 +10,7 @@ import entidades.Productor;
 import entidades.Transportador;
 import implementaciones.FNegocio;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

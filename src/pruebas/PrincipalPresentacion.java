@@ -5,8 +5,8 @@
  */
 package pruebas;
 
-import implementaciones.FNegocio;
-import implementaciones.INegocio;
+
+import interfaces.INegocio;
 import vista.FRegistroInicioSesion;
 
 /**

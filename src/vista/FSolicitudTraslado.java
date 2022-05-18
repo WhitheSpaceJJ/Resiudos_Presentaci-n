@@ -8,7 +8,7 @@ import entidades.Residuo_Transporte;
 import entidades.Solicitud_de_Traslado;
 import entidades.Usuario;
 import implementaciones.FabricaNegocios;
-import implementaciones.INegocio;
+import interfaces.INegocio;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
