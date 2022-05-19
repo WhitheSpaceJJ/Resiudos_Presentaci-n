@@ -240,7 +240,7 @@ public class FRegistrarUsuarios extends javax.swing.JFrame {
             this.jComboBoxEmpresas.removeAllItems();
             for (int i = 0; i < listaTransportes.size(); i++) {
                 Transporte get = listaTransportes.get(i);
-                this.jComboBoxEmpresas.addItem(get.getNombre());
+                this.jComboBoxEmpresas.addItem("Nombre; "+get.getNombre()+", Direccion; "+get.getDireccion());
             }
         }
         if (tipoUsuario.equalsIgnoreCase("Productor") && listaProductoras.isEmpty()) {
@@ -252,7 +252,7 @@ public class FRegistrarUsuarios extends javax.swing.JFrame {
             this.jComboBoxEmpresas.removeAllItems();
             for (int i = 0; i < listaProductoras.size(); i++) {
                 Productora get = listaProductoras.get(i);
-                this.jComboBoxEmpresas.addItem(get.getNombre());
+                this.jComboBoxEmpresas.addItem("Nombre; "+get.getNombre()+", Direccion; "+get.getDireccion());
             }
         }
     }//GEN-LAST:event_jComboBoxUsuariosActionPerformed
