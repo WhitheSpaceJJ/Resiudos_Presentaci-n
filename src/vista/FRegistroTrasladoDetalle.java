@@ -465,7 +465,24 @@ public class FRegistroTrasladoDetalle extends javax.swing.JFrame {
             return true;
         }
 
-        Double b = new Double(1000000);
+        Double d = new Double(10000000);
+        double c = 0;
+        try {
+            c = new Double(kms);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Los kilómetros contienen caracteres inválidos.", "Error", JOptionPane.ERROR_MESSAGE);
+            return true;
+        }
+        if (c >= d) {
+            JOptionPane.showMessageDialog(this, "El kilómetro es demasiado grande.", "Error", JOptionPane.ERROR_MESSAGE);
+            return true;
+        }
+        if (c < 1000) {
+            JOptionPane.showMessageDialog(this, "El kilómetro no debe de ser igual o menor a 1000.", "Error", JOptionPane.ERROR_MESSAGE);
+            return true;
+        }
+        
+        Double b = new Double(10000000);
         double a = 0;
         try {
             a = new Double(costo);
@@ -482,22 +499,6 @@ public class FRegistroTrasladoDetalle extends javax.swing.JFrame {
             return true;
         }
 
-        Double d = new Double(1000000);
-        double c = 0;
-        try {
-            c = new Double(kms);
-        } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(null, "Los kilómetros contienen caracteres inválidos.", "Error", JOptionPane.ERROR_MESSAGE);
-            return true;
-        }
-        if (c >= d) {
-            JOptionPane.showMessageDialog(this, "El kilómetro es demasiado grande.", "Error", JOptionPane.ERROR_MESSAGE);
-            return true;
-        }
-        if (c < 1000) {
-            JOptionPane.showMessageDialog(this, "El kilómetro no debe de ser igual o menor a 1000.", "Error", JOptionPane.ERROR_MESSAGE);
-            return true;
-        }
         return false;
     }
 

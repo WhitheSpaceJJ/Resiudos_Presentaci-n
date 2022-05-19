@@ -458,10 +458,10 @@ public class FRegistroResiduos extends javax.swing.JFrame {
         if (verificarDatosVacios()) {
             return true;
         }
-        if (verificarCantidadTamanho()) {
+         if (validarDatos()) {
             return true;
         }
-        if (validarDatos()) {
+        if (verificarCantidadTamanho()) {
             return true;
         }
         return false;
@@ -532,7 +532,7 @@ public class FRegistroResiduos extends javax.swing.JFrame {
      */
     private boolean validarDatos() {
         if (!this.validaEntero(this.txtCodigo.getText())) {
-            this.mostrarMensajeAdvertencia("Solo se aceptan números en el código.");
+            this.mostrarMensajeAdvertencia("Solo se aceptan números positivos en el código.");
             return true;
         }
         if (seleccionados.isEmpty()) {
